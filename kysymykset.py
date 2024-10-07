@@ -138,8 +138,163 @@ kysymykset = {
         "vaihtoehdot": ["a. set", "b. chmod", "c. rights", "d. permissions"],
         "oikea": "b"
     },
-
-
+    "Mikä on LDAP (Lightweight Directory Access Protocol)?": {
+        "vaihtoehdot": ["a. Protokolla tietokannan hallintaan", "b. Verkkoprotokolla, joka mahdollistaa pääsyn hakemistotietokantoihin", "c. Ohjelmointikieli", "d. Palvelimen tiedostojärjestelmä"],
+        "oikea": "b"
+    },
+    "Mikä seuraavista työkaluista voi auttaa yhdistämään Linux- ja Windows-ympäristöjä?": {
+        "vaihtoehdot": ["a. Samba", "b. Bash", "c. Cygwin", "d. Git"],
+        "oikea": "a"
+    },
+    "Mikä komento näyttää sekä verkkoyhteyksiä kuuntelevat portit että niihin liittyvät prosessit Linuxissa?": {
+        "vaihtoehdot": ["a. netstat -l", "b. lsof -i", "c. ps aux", "d. check-port"],
+        "oikea": "b"
+    },
+    "Mikä on 'Kerberos'-protokolla Active Directoryssa?": {
+        "vaihtoehdot": ["a. Verkkoprotokolla, jota käytetään tiedostojen jakamiseen", "b. Tietoturvaprotokolla, joka mahdollistaa käyttäjien ja palveluiden todennuksen", "c. Koodausmenetelmä", "d. Palvelimen ylläpitoprotokolla"],
+        "oikea": "b"
+    },
+    "1. Mikä on 'Kerberoasting'?": {
+        "vaihtoehdot": ["a. Hyökkäys, jossa hyödynnetään palvelinpalveluiden todennusmenettelyjä", "b. Hyökkäys, jossa kaapataan Kerberos-lippuja ja yritetään purkaa niiden salaisuudet", "c. Hyökkäys, jossa käytetään hyväksi LDAP-haavoittuvuutta", "d. Hyökkäys, joka perustuu passw0rd-tilien luomiseen"],
+        "oikea": "b"
+    },
+    "Mikä työkalu on erityisen tehokas AD-tietojen keräämisessä?": {
+        "vaihtoehdot": ["a. Recon-ng", "b. BloodHound", "c. SQLMap", "d. Nessus"],
+        "oikea": "b"
+    },
+    "Mikä on 'Pass-the-Hash' -hyökkäys?": {
+        "vaihtoehdot": ["a. Hyökkäys, jossa salasana varastetaan verkkoliikenteestä", "b. Hyökkäys, jossa hyökkääjä käyttää käyttäjän hashattua salasanaa päästäkseen käsiksi resursseihin ilman, että salasanaa tarvitsee tietää", "c. Hyökkäys, joka liittyy heikkoon salaukseen", "d. Hyökkäys, jossa varastetaan käyttäjän käyttäjätunnus ja salasana"],
+        "oikea": "b"
+    },
+    "Mikä seuraavista on ISO 27001 -standardin tarkoitus?": {
+        "vaihtoehdot": ["a. Ohjata ohjelmistokehitystä", "b. Hallita tietoturvallisuuden hallintajärjestelmiä", "c. Säädellä henkilötietojen käsittelyä", "d. Tarjota ohjeita verkkosivustojen suojaamiseen"],
+        "oikea": "b"
+    },
+    "Mikä on NIST?": {
+        "vaihtoehdot": ["a. National Institute of Standards and Technology", "b. National Information Security Technology", "c. National Intelligence Security Team", "d. New International Security Techniques"],
+        "oikea": "a"
+    },
+    "Mikä on GDPR?": {
+        "vaihtoehdot": ["a. Global Data Protection Regulation", "b. General Data Privacy Regulation", "c. Government Data Protection Regulation", "d. General Data Policy Regulation"],
+        "oikea": "a"
+    },
+    "Mikä seuraavista on CIS Controls?": {
+        "vaihtoehdot": ["a. Sarja suosituksia, jotka auttavat organisaatioita parantamaan kyberturvallisuuttaan", "b. Tietoturvaprotokolla, jota käytetään verkkoliikenteessä", "c. Ohjelmointikieli kyberturvallisuuden sovelluksille", "d. Haavoittuvuustestaustyökalu"],
+        "oikea": "a"
+    },
+    "Mikä on ISO 27002 -standardin tarkoitus?": {
+        "vaihtoehdot": ["a. Tietoturvallisuuden hallintajärjestelmän standardointi", "b. Tietoturvatoimien käytännön suositusten tarjoaminen", "c. Tietojen salausmenetelmien standardointi", "d. Verkkoliikenteen suojaaminen"],
+        "oikea": "b"
+    },
+    "Mikä on NIST Cybersecurity Framework?": {
+        "vaihtoehdot": ["a. Ohjeistus, joka koskee kyberturvallisuuden hallintaa", "b. Tietoturvaprotokolla", "c. Standardi, joka säätelee ohjelmistokehitystä", "d. Suunnittelumalli fyysisille tietoturvajärjestelmille"],
+        "oikea": "a"
+    },
+    "Mikä direktiivi säätelee tietosuojaa Euroopan unionissa?": {
+        "vaihtoehdot": ["a. EU Cybersecurity Act", "b. GDPR", "c. NIS Directive", "d. ePrivacy Directive"],
+        "oikea": "b"
+    },
+    "Mikä on yleinen SOC työkalu?": {
+        "vaihtoehdot": ["a. Git", "b. SIEM (Security Information and Event Management)", "c. Photoshop", "d. Microsoft Word"],
+        "oikea": "b"
+    },
+    "Mikä on 'Threat Intelligence'?": {
+        "vaihtoehdot": ["a. Tieto yrityksen asiakaskunnasta", "b. Tieto kyberuhista ja niiden käyttäytymisestä", "c. Tieto uusista ohjelmistotuotteista", "d. Tieto taloudellisista markkinoista"],
+        "oikea": "b"
+    },
+    "Mikä on yleinen SIEM-järjestelmä?": {
+        "vaihtoehdot": ["a. SolarWinds", "b. Splunk", "c. Microsoft Office", "d. Notepad"],
+        "oikea": "b"
+    },
+    "Mikä on 'Security Orchestration, Automation and Response' (SOAR)?": {
+        "vaihtoehdot": ["a. Prosessi, jossa manuaalisesti hallitaan tietoturvahyökkäyksiä", "b. Työkalu, joka yhdistää ja automatisoi tietoturvatoimenpiteitä", "c. Ohjelmiston kehitysmenetelmä", "d. Verkkosivustojen optimointiprosessi"],
+        "oikea": "b"
+    },
+    "Mikä on 'forensic analysis' kyberturvallisuudessa?": {
+        "vaihtoehdot": ["a. Tietojen kerääminen ja analysointi rikosten selvittämiseksi", "b. Ohjelmiston kehitysprosessi", "c. Verkkosivustojen optimointi", "d. Tietokannan hallinta"],
+        "oikea": "a"
+    },
+    "Mikä on 'zero-day exploit'?": {
+        "vaihtoehdot": ["a. Hyökkäys, joka hyödyntää tuntematonta haavoittuvuutta", "b. Hyökkäys, joka tapahtuu vain tiettynä päivänä", "c. Hyökkäys, joka on dokumentoitu ja tunnettu", "d. Ohjelmiston päivitys"],
+        "oikea": "a"
+    },
+    "Mikä on 'advanced persistent threat' (APT)?": {
+        "vaihtoehdot": ["a. Hyökkäys, joka on lyhytaikainen ja helppo estää", "b. Edistynyt pitkäaikainen, kohdennettu hyökkäys, jonka voivat toteuttaa esimerkiksi valtiolliset toimijat tai organisoidut hakkeriryhmät", "c. Hyökkäys, joka perustuu satunnaisiin satelliittiyhteyksiin", "d. Yleinen ohjelmistopäivitys"],
+        "oikea": "b"
+    },
+    "Mikä on LDAP?": {
+        "vaihtoehdot": ["a. Lightweight Directory Access Protocol, käytetään Active Directoryn kanssa", "b. Tietokannan hallintajärjestelmä", "c. Verkkosivustojen optimointityökalu", "d. Tietoturvan hallintaprosessi"],
+        "oikea": "a"
+    },
+     "Miksi tietoturvasertifikaatit ovat tärkeitä?": {
+        "vaihtoehdot": ["a. Ne auttavat ammattilaisia kehittämään ohjelmistoja", "b. Ne tarjoavat todisteen asiantuntemuksesta ja osaamisesta tietoturvassa", "c. Ne ovat vain muodollisuuksia", "d. Ne eivät ole tarpeellisia"],
+        "oikea": "b"
+    },
+    "3. Mikä on 'scope' penetraatiotestauksessa?": {
+        "vaihtoehdot": ["a. Testauksen aikana määritellyt järjestelmät ja palvelut, joita testataan", "b. Testauksen aikaraja", "c. Testauksen työntekijät", "d. Testauksen tulokset"],
+        "oikea": "a"
+    },
+    "Mikä on TCP (Transmission Control Protocol)?": {
+        "vaihtoehdot": ["a. Yhteyksellinen protokolla, joka takaa tietojen perillemenon", "b. Yhteydetön protokolla, joka ei takaa tietojen perillemenoa", "c. Verkkosivustojen kehittämiseen käytettävä protokolla", "d. Tietokannan hallintajärjestelmä"],
+        "oikea": "a"
+    },
+    "Mikä on UDP (User Datagram Protocol)?": {
+        "vaihtoehdot": ["a. Protokolla, joka takaa tietojen perillemenon", "b. Yhteydetön protokolla, jota käytetään reaaliaikaisessa viestinnässä", "c. Protokolla, joka liittyy vain sähköpostin lähettämiseen", "d. Tietokannan hallintajärjestelmä"],
+        "oikea": "b"
+    },
+    "Mikä on ARP (Address Resolution Protocol)?": {
+        "vaihtoehdot": ["a. Protokolla, joka muuntaa IP-osoitteet MAC-osoitteiksi", "b. Protokolla, joka siirtää tiedostoja verkossa", "c. Protokolla, joka suojaa verkkoyhteyksiä", "d. Protokolla, joka siirtää sähköposteja"],
+        "oikea": "a"
+    },
+    "Mikä on MITRE ATT&CK -kehys, ja miten sitä käytetään kyberturvallisuudessa?": {
+        "vaihtoehdot": ["a. Se on ohjelmointikehys", "b. Se on tietoturvatoimintojen kehys, joka kuvaa hyökkääjien käyttäytymistä ja taktiikoita", "c. Se on verkkoprotokolla", "d. Se on salausmenetelmä"],
+        "oikea": "b"
+    },
+    "Mikä on 'Social Engineering' -hyökkäys, ja miten se voi vaikuttaa organisaatioon?": {
+        "vaihtoehdot": ["a. Hyökkäys, joka perustuu teknisiin haavoittuvuuksiin", "b. Hyökkäys, jossa hyödynnetään inhimillisiä tekijöitä, kuten huijaamista ja manipulointia", "c. Hyökkäys, joka tapahtuu vain verkossa", "d. Hyökkäys, joka käyttää vain haittaohjelmia"],
+        "oikea": "b"
+    },
+    "Mikä on 'Man-in-the-Middle' -hyökkäys, ja miten se toimii?": {
+        "vaihtoehdot": ["a. Hyökkäys, jossa hyökkääjä kommunikoi suoraan kohdehenkilön kanssa", "b. Hyökkäys, jossa hyökkääjä sieppaa ja muokkaa viestintää kahden osapuolen välillä", "c. Hyökkäys, joka ei ole mahdollista", "d. Hyökkäys, joka tapahtuu vain paikallisverkoissa"],
+        "oikea": "b"
+    },
+    "Mikä on 'Brute Force' -hyökkäys, ja mitkä ovat sen tyypilliset torjuntakeinot?": {
+        "vaihtoehdot": ["a. Hyökkäys, jossa yritetään arvata salasana kokeilemalla kaikkia mahdollisia yhdistelmiä", "b. Hyökkäys, joka liittyy vain sähköpostiin", "c. Hyökkäys, joka ei ole mahdollista", "d. Hyökkäys, joka käyttää vain ohjelmointikieltä"],
+        "oikea": "a"
+    },
+    "Mikä on 'Reconnaissance' vaihe penetraatiotestauksessa?": {
+        "vaihtoehdot": ["a. Hyökkääjän suorittama tietojen kerääminen kohteesta ennen hyökkäystä", "b. Hyökkäys, joka tapahtuu vain lokalisoidussa ympäristössä", "c. Hyökkäys, joka ei ole mahdollista", "d. Hyökkäys, joka liittyy vain ohjelmointikieleen"],
+        "oikea": "a"
+    },
+    "Mikä on Metasploitin 'Payload' ja mitä eroa on 'Singles' ja 'Stagers' -payloadien välillä?": {
+        "vaihtoehdot": ["a. 'Singles' ovat yhdistelmät, kun taas 'Stagers' lähettävät vain ohjaussignaalin", "b. 'Singles' ovat itsenäisiä payloadeja, kun taas 'Stagers' luovat yhteyden uhriin ennen koodin suorittamista", "c. 'Singles' ovat vain Windows-alustalla toimivia, kun taas 'Stagers' ovat alusta riippumattomia", "d. 'Singles' ovat vanhentuneita payloadeja"],
+        "oikea": "b"
+    },
+    "Miten Nmapin 'OS detection' -ominaisuus toimii, ja mitkä ovat sen keskeiset parametrit?": {
+        "vaihtoehdot": ["a. Se käyttää vain TCP-portteja tunnistaakseen käyttöjärjestelmän", "b. Se perustuu TTL, Window Size ja MTU -arvoihin", "c. Se tunnistaa vain Windows-käyttöjärjestelmät", "d. Se käyttää vain ICMP-paketteja"],
+        "oikea": "b"
+    },
+    "Miten Aircrack-ng 'airodump-ng' työkalu toimii ja mitä tietoja se kerää?": {
+        "vaihtoehdot": ["a. Se kerää vain salausavaimia", "b. Se skannaa langattomia verkkoja ja kerää tietoja kuten BSSID, SSID, ja asiakkaat", "c. Se estää langattomia hyökkäyksiä", "d. Se ei toimi WEP-verkkojen kanssa"],
+        "oikea": "b"
+    },
+    "Mikä on Burp Suitessa 'Intruder' -työkalun tarkoitus, ja miten se eroaa 'Repeater' -työkalusta?": {
+        "vaihtoehdot": ["a. 'Intruder' on tarkoitettu manuaaliseen liikenteen muokkaamiseen, kun taas 'Repeater' automaattiseen testaukseen", "b. 'Intruder' automaattisesti lähettää useita pyyntöjä, kun taas 'Repeater' lähettää yksittäisiä pyyntöjä ja analysoi vastaukset", "c. 'Intruder' on vain graafinen käyttöliittymä, kun taas 'Repeater' on komento-rivipohjainen", "d. 'Intruder' suojaa verkkosivustoja, kun taas 'Repeater' ei tee mitään"],
+        "oikea": "b"
+    },
+    "Mikä on 'Mimikatz' ja mihin sen käyttö rajoittuu?": {
+        "vaihtoehdot": ["a. Se on työkalu, jolla voidaan kerätä verkkosivustojen käyttötilastoja", "b. Se on työkalu, jolla voidaan noutaa salasanoja ja käyttäjäistuntoja Windows-käyttöjärjestelmässä", "c. Se on työkalu, joka suojaa tietokantoja", "d. Se on työkalu, jolla voi luoda langattoman verkon"],
+        "oikea": "b"
+    },
+    "Miten 'Rootkit' toimii ja mitkä ovat sen pääasialliset piirteet?": {
+        "vaihtoehdot": ["a. Se on vain graafinen käyttöliittymä", "b. Se piilottaa itsensä ja haitalliset toiminnot käyttöjärjestelmän sisällä estäen havaitsemisen", "c. Se on työkalu, joka suojaa tietokantoja", "d. Se on virustorjuntaohjelma"],
+        "oikea": "b"
+    },
+    "10. Miten 'CPTS' (Certified Penetration Testing Specialist) -sertifikaatti vaikuttaa ammattilaisen työnäkymiin?": {
+        "vaihtoehdot": ["a. Se ei vaikuta työnäkymiin mitenkään", "b. Se osoittaa asiantuntemuksen ja voi parantaa työllistymismahdollisuuksia kyberturvallisuuden alalla", "c. Se on vain graafinen käyttöliittymä", "d. Se on vain ohjelmointikieli"],
+        "oikea": "b"
+    },
+    
 }
 
 """
