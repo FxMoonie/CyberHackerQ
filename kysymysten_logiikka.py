@@ -21,6 +21,7 @@ def kysy_kysymykset(kesto):
             print()
             for vaihtoehto in data["vaihtoehdot"]:
                 print(vaihtoehto)
+            print()
             vastaus = input("\033[92mValitse oikea vastaus (a, b, c, d): \033[0m").strip().lower()
 
             if vastaus == data["oikea"]:
