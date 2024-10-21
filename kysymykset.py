@@ -290,11 +290,34 @@ kysymykset = {
         "vaihtoehdot": ["a. Se on vain graafinen käyttöliittymä", "b. Se piilottaa itsensä ja haitalliset toiminnot käyttöjärjestelmän sisällä estäen havaitsemisen", "c. Se on työkalu, joka suojaa tietokantoja", "d. Se on virustorjuntaohjelma"],
         "oikea": "b"
     },
-    "10. Miten 'CPTS' (Certified Penetration Testing Specialist) -sertifikaatti vaikuttaa ammattilaisen työnäkymiin?": {
+    "Miten 'CPTS' (Certified Penetration Testing Specialist) -sertifikaatti vaikuttaa ammattilaisen työnäkymiin?": {
         "vaihtoehdot": ["a. Se ei vaikuta työnäkymiin mitenkään", "b. Se osoittaa asiantuntemuksen ja voi parantaa työllistymismahdollisuuksia kyberturvallisuuden alalla", "c. Se on vain graafinen käyttöliittymä", "d. Se on vain ohjelmointikieli"],
         "oikea": "b"
     },
-    
+    "Kun käytetään DNS-tunnelointia datan siirtämiseen kohdeverkosta, mikä on ensisijainen rajoitus, joka tekee tästä hyökkäyksestä vähemmän suorituskykyisen?": {
+        "vaihtoehdot": ["a. DNS-pyyntöjen koot ovat rajoitettuja, mikä vaatii useita fragmentteja isomman datan siirtoon", "b. DNS-tunnelointi ei tue kahden suunnan kommunikointia", "c. DNS-palvelimet eivät salli datan salaamista, mikä tekee hyökkäyksestä helposti havaittavan", "d. DNS-tunnelointi on riippuvainen UDP:stä, mikä tekee siitä alttiin pakettien häviämiselle"],
+        "oikea": "a"
+    },
+    "Mikä seuraavista heap spraying -tekniikoista on erityisen tehokas hyökkäysvektori modernien selainten haavoittuvuuksia hyödyntäessä?": {
+        "vaihtoehdot": ["a. Heap sprayingin avulla voidaan ohittaa DEP (Data Execution Prevention) -suojaus injektoimalla suoritettava koodi", "b. Heap spraying ohittaa ASLR-suojauksen luomalla suuren määrän tunnettuja kohde-osoitteita", "c. Heap spraying mahdollistaa suoran shellcode-injektion selaimen prosessiin ilman huolta sandboxista", "d. Heap spraying on tehokas tapa käyttää ROP-ketjuja suoraan ilman ylimääräisiä haavoittuvuuksia"],
+        "oikea": "b"
+    },
+    "Mitä hyökkääjä yrittää saavuttaa suorittaessaan LLMNR/NBT-NS Poisoning -hyökkäyksen verkossa?": {
+        "vaihtoehdot": ["a. Ohjata legitimi liikenne haitalliselle DNS-palvelimelle saadakseen tunnistetietoja", "b. Siepata autentikointiprosesseja verkossa ja kaapata NTLMv2 hash-arvoja", "c. Kiertää IDS-järjestelmä sieppaamalla DNS-kyselyt ja muuntamalla ne hyökkäystarkoituksiin", "d. Kiertää verkon VLAN-segmentointi uudelleenreitittämällä liikenteen"],
+        "oikea": "b"
+    },
+    "Kun käytetään Buffer Overflow -hyökkäystä kohdejärjestelmään, mikä on stack canary -mekanismin pääasiallinen tehtävä?": {
+        "vaihtoehdot": ["a. Estää shellcode-koodin injektoiminen suoraan stackiin", "b. Suojata kriittisiä järjestelmäkirjastoja ylivuodon hyödyntämiseltä", "c. Havaita ja estää puskurin ylivuodon korruptoimasta funktiopalautusosoitteita stackilla", "d. Varmistaa, että stackin muisti on jatkuvasti suojattu koodin suoritukselta"],
+        "oikea": "c"
+    },
+    "NTDS.dit -tiedosto Windows-ympäristössä on erityisen kiinnostava kohde penetraatiotestaajille ja hyökkääjille. Miksi?": {
+        "vaihtoehdot": ["a. Se sisältää varmuuskopioidut tiedot kaikista NTFS-järjestelmän tiedostoista", "b. Se sisältää kaikkien Active Directory -käyttäjien tunnukset ja hash-muodossa olevat salasanat", "c. Se sisältää tiedot palvelimen käynnistyslokeista ja virheiden analysointitiedot", "d. Se on keskeinen tiedosto, joka mahdollistaa Windowsin AD-arkkitehtuurin kiertämisen"],
+        "oikea": "b"
+    },
+    "Miten hyökkääjä voi hyödyntää XXE (XML External Entity) -haavoittuvuuksia modernissa verkkosovelluksessa?": {
+        "vaihtoehdot": ["a. Syöttämällä haitallisia JavaScript-komentoja XML-dokumenttiin, joka ajetaan käyttäjän selaimessa", "b. Muuttamalla XML-kyselyn rakennetta kaapatakseen toisen käyttäjän tiedot samassa sovelluksessa", "c. Pakottamalla palvelin lataamaan ulkoisia resursseja tai tiedostoja palvelimen tiedostojärjestelmästä XML-käsittelyn aikana", "d. Salaamalla XML-dokumentteja siten, että ne eivät enää täytä XML-validoinnin sääntöjä ja kaatuvat"],
+        "oikea": "c"
+    },
 }
 
 """
